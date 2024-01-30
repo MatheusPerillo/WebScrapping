@@ -1,0 +1,21 @@
+body {
+  background-color: #212529;
+}
+
+h1 {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+#results {
+  color: #fff;
+}
+
+#location-id {
+  margin-left: 5px;
+  color: #dd4a4a;
+  font-size: 3.5rem;
+}

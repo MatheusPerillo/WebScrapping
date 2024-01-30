@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Maps Scraper</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container mt-5">
+    <h1 class="text-center mb-4">
+      Google Maps Scraper
+      <i class="bi bi-geo-alt-fill" id="location-id"></i>
+    </h1>
+    <form id="searchForm" class="mb-4">
+      <div class="form-group">
+        <input
+          type="text"
+          id="query"
+          name="query"
+          class="form-control"
+          required
+          placeholder="Digite o nicho que deseja encontrar.."
+        />
+      </div>
+      <div class="d-md-flex justify-content-md-center">
+        <button type="submit" class="btn btn-primary btn-lg">Pesquisar</button>
+      </div>
+    </form>
+    <div id="results" class="table-responsive"></div>
+
+    <script src="./script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
